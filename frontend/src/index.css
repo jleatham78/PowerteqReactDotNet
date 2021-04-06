@@ -5,9 +5,105 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: grey;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+header {
+  height: 60px;
+  background: black;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+footer {
+  height: 50px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+form {
+  width: 100%;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+  padding: 10px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  width: 94%;
+}
+
+input:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  align-items: center;
+}
+
+.saveButton {
+  margin-top: 50px;
+  margin-left: 300px;
+  background-color: rgb(97, 97, 179);
+  height: 40px;
+  width: 60px;
+}
+
+.card {
+  background-color: gray;
+  border-radius: 0.25rem;
+  box-shadow: 10px 20px 40px -14px rgba(0, 0, 0, 0.25);
+  width: 15%;
+  padding: 20px;
+  margin-left: 575px;
+}
+
+.app {
+  height: 100vh;
+  background: gray;
+}
+
+.todo-list {
+  border-radius: 4px;
+  max-width: 300px;
+  padding: 5px;
+  margin-left: 540px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.todo {
+  align-items: center;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  padding: 3px 10px;
 }
